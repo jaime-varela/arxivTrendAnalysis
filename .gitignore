@@ -1,10 +1,10 @@
 # Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+arxiv-ngrams-site/logs
+arxiv-ngrams-site/*.log
+arxiv-ngrams-site/npm-debug.log*
+arxiv-ngrams-site/yarn-debug.log*
+arxiv-ngrams-site/yarn-error.log*
+arxiv-ngrams-site/lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -35,14 +35,14 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+arxiv-ngrams-site/build/Release
 
 # Dependency directories
-node_modules/
-jspm_packages/
+arxiv-ngrams-site/node_modules/
+arxiv-ngrams-site/jspm_packages/
 
 # TypeScript v1 declaration files
-typings/
+arxiv-ngrams-site/typings/
 
 # TypeScript cache
 *.tsbuildinfo
@@ -83,7 +83,7 @@ typings/
 dist
 
 # Gatsby files
-.cache/
+arxiv-ngrams-site/.cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
@@ -92,13 +92,19 @@ dist
 .vuepress/dist
 
 # Serverless directories
-.serverless/
+arxiv-ngrams-site/.serverless/
 
 # FuseBox cache
-.fusebox/
+arxiv-ngrams-site/.fusebox/
 
 # DynamoDB Local files
-.dynamodb/
+arxiv-ngrams-site/.dynamodb/
 
 # TernJS port file
-.tern-port
+arxiv-ngrams-site/.tern-port
+
+# config files
+arxiv-ngrams-analysis/config.py
+
+# python
+arxiv-ngrams-analysis/__pycache__/
